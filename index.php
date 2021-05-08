@@ -13,7 +13,7 @@
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-       <a class="navbar-brand">Logotipo prueba 523</a>
+       <a class="navbar-brand">Logotipo prueba 1025</a>
        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
        </button>
