@@ -19,8 +19,10 @@ include 'global/conexion.php';
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-       <a class="navbar-brand"></a>
+
+       <a class="navbar-brand fas fa-store-alt"></a>
        <i class="fas fa-store-alt"></i>
+
        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
        </button>
