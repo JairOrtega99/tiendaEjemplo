@@ -1,6 +1,7 @@
 <?php
 include 'global/config.php';
 include 'global/conexion.php';
+include 'Carrito.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,8 +42,11 @@ include 'global/conexion.php';
 <br/>
 <div class="container">
     <br>
+
    <div class="alert alert-success" >
-       Mensaje
+      
+   <?php  echo $mensaje; ?>
+      
        <a href="#" class="badge badge-success">ver carrito</a>
    </div>
 
