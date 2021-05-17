@@ -45,7 +45,7 @@ include 'Carrito.php';
 
    <div class="alert alert-success" >
       
-   <?php  echo $mensaje; ?>
+   <?php   print_r($_POST); ?>
       
        <a href="#" class="badge badge-success">ver carrito</a>
    </div>
@@ -74,18 +74,19 @@ include 'Carrito.php';
                     <span> <?php echo $producto['Nombre']; ?></span>
                     <h5 class="card-title">$<?php echo $producto['Precio'];?> </h5>
                     
-                    <form action="" method="post">
+                    <form action="" method="POST">
 
                         <input type="text" name="id" id="id" value="<?php echo openssl_encrypt($producto['Id'], COD, KEY); ?>" >
                         <input type="text" name="nombre" id="nombre" value="<?php echo openssl_encrypt($producto['Nombre'], COD, KEY);  ?>" >
-                        <input type="text" name=" precio" id="precio" value="<?php echo  openssl_encrypt($producto['Precio'], COD, KEY);  ?>" >
+                        <input type="text" name="precio" id="precio" value="<?php echo  openssl_encrypt($producto['Precio'], COD, KEY);  ?>" >
                         <input type="text" name="cantidad" id="cantidad"  value="<?php echo openssl_encrypt(1, COD, KEY); ?> ">
 
-                        <b-btn class="btn btn-primary fas fa-cart-plus" 
+                        <b-btn class="btn btn-primary " 
                         type="submit" 
                         name="btnAccion" 
                         value="Agregar">
                         Agregar al Carrito
+                        <?php echo "1"; ?>
                         </b-btn>
 
                     </form>

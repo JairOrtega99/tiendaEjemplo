@@ -1,7 +1,7 @@
 <?php
 
-define("KEY", "tiendaPrueba");
-define("COD", "AES-128-ECB");
+define("KEY", "tiendaPrueba");//llave
+define("COD", "AES-128-ECB");//se aplica metodo de encriptacion 
 
 define("SERVIDOR", "localhost");
 define("USUARIO","root");
